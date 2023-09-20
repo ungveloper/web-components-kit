@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" as="style" crossorigin href="./css/styles.css" />
+
+    <style>
+      /* Sample Style */
+      main {
+        margin: 0 auto;
+        margin-top: 100px;
+        padding: 0 20px;
+        max-width: 768px;
+        width: 100%;
+        height: 200vh;
+      }
+
+      .content {
+        position: relative;
+      }
+    </style>
+  </head>
+
+  <!--
+    ❗️ rule
+    1. 모든 컨텐츠는 "content" class를 가진 tag 내부에 작성
+    2. "inPageNavigation" id를 가진 tag 생성
+    3. 본문 파트는 <section> tag로 구분
+    4. 메인 제목은 <section> tag 내 <h2> tag로 구분
+    5. 서브 제목은 <section> tag 내 <h3> tag로 구분
+    6. 배경색 자체를 어두운 색상으로 사용한다면 "html" tag에 "data-theme='dark'" 추가
+    7. 아예 theme를 사용하겠다면 "web-components-kit" theme 사용 추천
+  -->
+
+  <body>
+    <main>
+      <div class="content">
+        <div id="inPageNavigation"></div>
+
+        <section>
+          <h2>First Main Title</h2>
+          <h3>First Sub Title 1</h3>
+          <p>First Body Content 1-1</p>
+          <p>First Body Content 1-2</p>
+          <h3>First Sub Title 2</h3>
+          <p>First Body Content 2-1</p>
+          <p>First Body Content 2-2</p>
+          <p>First Body Content 2-3</p>
+        </section>
+        <section>
+          <h2>Second Main Title</h2>
+          <h3>Second Sub Title 1</h3>
+          <p>Second Body Content 1-1</p>
+          <p>Second Body Content 1-2</p>
+          <p>Second Body Content 1-3</p>
+          <p>Second Body Content 1-4</p>
+          <p>Second Body Content 1-5</p>
+        </section>
+      </div>
+    </main>
+
+    <script src="./js/scripts.js"></script>
+  </body>
+</html>
