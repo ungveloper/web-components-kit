@@ -1,0 +1,3 @@
+::-webkit-scrollbar { display: none; }
+#header { border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+#headerScrollIndicator { position: absolute; left: 0; top: 100%; width: 0; height: 2px; background: rgba(0, 0, 0, 0.7); }
