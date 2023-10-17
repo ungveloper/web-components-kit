@@ -1,0 +1,2 @@
+::-webkit-scrollbar { display: none; }
+#topScrollIndicator { position: fixed; left: 0; top: 0; width: 0; height: 5px; background: rgba(0, 0, 0, 0.7); }
