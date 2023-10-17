@@ -1,6 +1,7 @@
 :root { --nav-top: 100px; --nav-border: #f1f3f5; --nav-color: #868e96; --nav-active-color: #212529; }
 [data-theme="dark"] { --nav-border: #2a2a2a; --nav-color: #acacac; --nav-active-color: #ececed; }
 
+.content { position: relative; }
 #inPageNavigation { position: absolute; top: var(--nav-top); left: 100%; }
 #inPageNavigation nav { margin-left: 80px; padding: 4px 0; width: 240px; max-height: 80vh; overflow: hidden auto; border-left: 2px solid var(--nav-border); line-height: 1.5; font-size: 14px; color: var(--nav-color); }
 #inPageNavigation nav.sticky { position: fixed; top: var(--nav-top); }
